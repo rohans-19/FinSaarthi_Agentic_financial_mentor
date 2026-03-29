@@ -17,3 +17,5 @@ test_output.txt
 .vscode/
 .idea/
 *.swp
+
+finsaarthi/rag/chromadb/
