@@ -1,0 +1,42 @@
+# ============================================================================
+# FinSaarthi — AI-Powered Personal Financial Planner
+# ET AI Hackathon 2026 | PS #9: AI Money Mentor
+# Python 3.10+ required
+# ============================================================================
+
+# ---------- LLM & Agent Framework ----------
+langchain==0.3.14
+langgraph==0.2.60
+langchain-google-genai==2.0.8
+langchain-community==0.3.14
+google-generativeai==0.8.4
+
+# ---------- RAG: Vector Store & Embeddings ----------
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# ---------- PDF Parsing ----------
+pdfplumber==0.11.4
+pymupdf==1.25.3
+
+# ---------- Financial Math ----------
+numpy-financial==1.0.0
+scipy==1.14.1
+
+# ---------- Data Processing ----------
+pandas==2.2.3
+numpy==1.26.4
+
+# ---------- Visualization ----------
+plotly==5.24.1
+
+# ---------- Frontend (Streamlit) ----------
+streamlit==1.41.1
+
+# ---------- Backend (FastAPI) ----------
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# ---------- Utilities ----------
+python-dotenv==1.0.1
+pydantic==2.10.4

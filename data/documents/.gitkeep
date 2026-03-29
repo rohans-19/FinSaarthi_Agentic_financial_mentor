@@ -1,0 +1,2 @@
+# This file ensures Git tracks the empty documents/ directory.
+# Place RAG source PDFs (tax guides, SEBI circulars, etc.) in this folder.
