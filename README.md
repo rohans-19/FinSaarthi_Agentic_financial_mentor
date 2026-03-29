@@ -2,37 +2,35 @@
 
 FinSaarthi is a multi-agent financial planning system that helps you manage your portfolio, plan for retirement (FIRE), optimize taxes, and coordinate finances with your partner.
 
-## Tech Stack
-- **Backend:** FastAPI, LangGraph, Google Gemini Pro
-- **Agents:** Multi-agent system for specialized financial modules.
-- **Frontend:** Streamlit for a premium user experience.
-- **RAG:** Knowledge base for tax and investment advice.
+## ✨ Features
+- **📊 Portfolio X-Ray:** Asset allocation, overlap detection, and performance analysis.
+- **🔥 FIRE Planner:** Advanced retirement roadmap with goal-based SIP projections.
+- **🧙‍♂️ Tax Wizard:** Old vs New regime comparison from Form 16 & deduction optimization.
+- **💍 Couple's Money Planner:** Joint financial optimization for mutual goal tracking.
+- **💎 Premium UI:** High-end glassmorphism dashboard built for hackathon dominance.
 
-## How to Run
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Lucide Icons, Recharts, Tailwind/Vanilla CSS (Bento Layout).
+- **Backend:** Python (FastAPI/Mock API).
+- **Intelligence:** Multi-Agent system powered by Google Gemini.
 
-1. **Setup Environment:**
-   Create a `.env` file and add your `GOOGLE_API_KEY`:
-   ```env
-   GOOGLE_API_KEY=your_genai_api_key_here
-   ```
+## 🚀 How to Run (Hackathon Demo)
 
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 1. Start the Backend API
+```bash
+# Run the zero-dependency mock API for reliable demo data
+python mock_api.py
+```
 
-3. **Start the Backend:**
-   ```bash
-   python api.py
-   ```
+### 2. Start the Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-4. **Start the Frontend:**
-   ```bash
-   streamlit run app.py
-   ```
+### 3. Open the App
+Visit: `http://localhost:5173/`
 
-## Key Modules
-- **📊 Portfolio X-Ray:** Asset allocation and performance analysis from CAMS PDF.
-- **🔥 FIRE Planner:** Retire early with goal-based SIP roadmaps.
-- **🧙‍♂️ Tax Wizard:** Regime comparison and deduction discovery.
-- **💍 Couple's Money Planner:** Joint financial optimization for partners.
+---
+*Built for the ET AI Hackathon 2026 | Team FinSaarthi*
