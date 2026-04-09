@@ -54,4 +54,3 @@ python mock_api.py
 
 ---
 *Built with ❤️ for the ET AI Hackathon 2026 by Team FinSaarthi*
-*Lead Engineer: Sandeep | Design & Agents: Rohan*
